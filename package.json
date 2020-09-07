@@ -1,0 +1,15 @@
+{
+  "name": "docs.lollipop.onl",
+  "version": "1.0.0",
+  "author": "lollipop-onl <lollipop@simochee.net>",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/lollipop-onl/docs.lollipop.onl.git",
+  "dependencies": {
+    "vuepress": "^1.5.4"
+  },
+  "scripts": {
+    "start": "vuepress dev docs -p 43000",
+    "build": "vuepress build docs"
+  }
+}
