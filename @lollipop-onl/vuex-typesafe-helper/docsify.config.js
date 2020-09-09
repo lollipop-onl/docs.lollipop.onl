@@ -4,5 +4,5 @@ window.$docsify = {
   logo: './assets/logo.svg',
   themeColor: '#2661B9',
   loadSidebar: true,
-  subMaxLevel: 2,
+  subMaxLevel: 3,
 };
