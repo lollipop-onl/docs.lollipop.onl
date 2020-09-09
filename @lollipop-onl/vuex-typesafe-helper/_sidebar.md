@@ -1,2 +1,2 @@
 * [Home](/)
-* [プロジェクトへ導入する](/introduction)
+* [プロジェクトへ導入する](/get-started)

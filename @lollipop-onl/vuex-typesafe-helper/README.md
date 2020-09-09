@@ -25,10 +25,16 @@ v2.0以前のバージョンと要件は [過去バージョン](https://vuex-ty
 
 ## インストール
 
+**yarnを使用する：**
+
 ```bash
-$ yarn add -D @lollipop-onl/vuex-typesafe-helper
-# or
-$ npm install -D @lollipop-onl/vuex-typesafe-helper
+yarn add -D @lollipop-onl/vuex-typesafe-helper
+```
+
+**npmを使用する：**
+
+```bash
+npm install -D @lollipop-onl/vuex-typesafe-helper
 ```
 
 ## License
