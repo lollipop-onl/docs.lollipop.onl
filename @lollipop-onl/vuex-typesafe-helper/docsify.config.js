@@ -3,6 +3,7 @@ window.$docsify = {
   name: '@lollipop-onl/vuex-typesafe-helper',
   logo: './assets/logo.svg',
   themeColor: '#2661B9',
+  loadNavbar: true,
   loadSidebar: true,
   subMaxLevel: 3,
   plugins: [
