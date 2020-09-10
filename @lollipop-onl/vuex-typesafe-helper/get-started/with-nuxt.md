@@ -126,37 +126,16 @@ import { DefineStoreModule } from '@lollipop-onl/vuex-typesafe-helper';
 export type ModulesTestStore = DefineStoreModule<'modules/test', State, never, typeof mutations, typeof actions>;
 ```
 
-## 3. Vuexストアを定義する
-
-?> Nuxt.jsで使用する場合は不要なステップです。
-
-Vuexストアを定義します。
-
-```ts
-import Vuex from 'vuex';
-import * as accountStore from './store/account.ts';
-import * as modulesExampleStore from './store/modules/example.ts';
-import * as modulesTestStore from './store/modules/test.ts';
-
-const store = Vuex.store({
-  account: accountStore,
-  modules: {
-    example: modulesExampleStore,
-    test: modulesTestStore,
-  },
-});
-```
-
-## 4. RootStore型を定義する
+## 3. RootStore型を定義する
 
 各 StoreModule で定義した StoreModule 型をまとめたRootStore型を定義します。
 
 ```ts
 // types/vuex.d.ts
 import { DefineRootStore } from '@lollipop-onl/vuex-typesafe-helper';
-import { AccountStore }  from './store/account.ts';
-import { ModulesExampleStore } from './store/modules/example.ts';
-import { ModulesTestStore } from './store/modules/test.ts';
+import { AccountStore }  from '@/store/account.ts';
+import { ModulesExampleStore } from '@/store/modules/example.ts';
+import { ModulesTestStore } from '@/store/modules/test.ts';
 
 export type RootStore = DefineRootStore<[
   AccountStore,
@@ -167,11 +146,11 @@ export type RootStore = DefineRootStore<[
 
 ## 5. コンポーネントでストアに型を当てる
 
-### vue-property-decorator で使用する
+### nuxt-property-decorator で使用する
 
 ```ts
-import { Component, Vue } from 'vue-property-decorator';
-import { RootStore } from '../types/vuex';
+import { Component, Vue } from 'nuxt-property-decorator';
+import { RootStore } from '@/types/vuex';
 
 @Component
 export default class SampleComponent extends Vue {
