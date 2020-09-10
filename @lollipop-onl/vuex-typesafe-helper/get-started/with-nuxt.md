@@ -144,7 +144,7 @@ export type RootStore = DefineRootStore<[
 ]>;
 ```
 
-## 5. コンポーネントでストアに型を当てる
+## 4. コンポーネントでストアに型を当てる
 
 ### nuxt-property-decorator で使用する
 
