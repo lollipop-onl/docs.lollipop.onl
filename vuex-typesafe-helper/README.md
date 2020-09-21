@@ -8,20 +8,21 @@
 
 ## 特徴
 
-* 必要な型定義は State と引数・返り値の型のみ
-* コンポーネントから State / Getters / Mutations / Actions を型安全に参照・サジェッションできます
-* Store の修正時に既存使用箇所で型エラーが通知されます
-* TypeScript の型情報のみ提供するためバンドルサイズが変わりません
+<ul  class="badge-list">
+  <li>バンドルサイズ、ゼロ</li>
+  <li>Vuex ソースコードをベースとした型定義</li>
+  <li>コンポーネントでの完全な型安全</li>
+  <li>型安全なストアを参照する Composition API Helper</li>
+  <li>型定義を簡単に破棄</li>
+</ul>
 
-## 必要要件
+## 必須要件
 
 `@lollipop-onl/vuex-typesafe-helper` v2.0 より、以下の要件が必須となりました。
 
-* `vuex` v3.0.0 +
+* `vuex` v3.x
 * `typescript` v4.1.0 +
 * `@nuxtjs/typescript-build` v2.3.0 + (Nuxt.jsで使用する場合)
-
-v2.0以前のバージョンと要件は [過去バージョン](https://vuex-typesafe-helper.lollipop.onl/versions) からご確認ください。
 
 ## インストール
 
