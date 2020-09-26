@@ -1,5 +1,3 @@
   * [About](/)
   * [Usage](/usage)
   * [API Reference](/api)
-  * [Vue で使用する](/get-started/with-vue)
-  * [Nuxt で使用する](/get-started/with-nuxt)
