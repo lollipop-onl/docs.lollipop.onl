@@ -8,13 +8,15 @@
 
 ## 特徴
 
-<ul  class="badge-list">
-  <li>バンドルサイズ、ゼロ</li>
-  <li>Vuex ソースコードをベースとした型定義</li>
-  <li>コンポーネントでの完全な型安全</li>
-  <li>型安全なストアを参照する Composition API Helper</li>
-  <li>型定義を簡単に破棄</li>
-</ul>
+<div class="badge-list">
+
+* バンドルサイズ、ゼロ
+* Vuex ソースコードをベースとした型定義
+* コンポーネントでの完全な型安全
+* 型安全なストアを参照する Composition API Helper
+* 型定義を簡単に破棄
+
+</div>
 
 ## 必須要件
 

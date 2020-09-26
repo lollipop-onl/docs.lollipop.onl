@@ -1,6 +1,5 @@
-* **Introduction**
-  * [パッケージについて](/)
-  * [使い方](/introduction/how-to-use)
-* **プロジェクトへ導入する**
+  * [About](/)
+  * [Usage](/usage)
+  * [API Reference](/api)
   * [Vue で使用する](/get-started/with-vue)
   * [Nuxt で使用する](/get-started/with-nuxt)
